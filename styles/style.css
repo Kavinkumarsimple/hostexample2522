@@ -1,0 +1,10 @@
+div {
+    border: black solid 1px;
+    min-height: 1em;
+    width: 32em;
+}
+
+.highlight {
+    background-color: rgb(255, 0, 0);
+}
+
