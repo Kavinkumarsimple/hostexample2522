@@ -1,3 +1,15 @@
+if ("serviceWorker" in Navigator) {
+  navigator.serviceWorker
+    .register("sw.js")
+    .then((registration) => {
+      console.log("Service worker Registered");
+      console.log(registration);
+    })
+    .catch((error) => {
+      console.log("Failed" + error);
+    });
+}
+
 let directory = document.getElementById("directory");
 const txtSelected = document.getElementById("selected");
 
